@@ -2,18 +2,26 @@
  Dosttech Payslip Customizations
  ===============================
 
- It is an application that provides calculation of monthly work days.
+        Calculation of working days
+        Calculates the number of working days for a selected month in the payslip calculation.
+        Some use cases where this module can be useful:
+            *an employee hasn't worked the whole month and his basic pay needs to be prorated based on the actual worked days out of total worked days
+            
+            *use working days information for calculation in any other salary rule
+        
+        A float field has been added to the payslip form view which is calculating the working 
+        days in respective working schedule of an employee by talking out the respective global
+        leaves.
  
- **Table of contents**
+ Product Custom Fields
  
  ..contents::
    :local:
    
    Installation
    ============
-   
-   Configuration
-   =============
+   - www.odoo.com/documentation/14.0/setup/install.html
+   - Install our custom addon
    
    Usage
    =====
@@ -22,12 +30,21 @@
    
    *To record the days worked
    
+   Tech
+   ====
+   * [Python] - Models
+   * [XML] - Odoo views
+   
+   License
+   =======
+   GNU AFFERO GENERAL PUBLIC LICENSE, Version 3 (AGPLv3)
+   (http://www.gnu.org/licenses/agpl.html)
+   
    Roadmap
    =======
    
    The roadmap of the Dosttech Payslip Customization application is documented on
    'Github <https://github.com/ERPGO/odoo-useful-customizations>'_.
-   
    
    Bug Tracker
    ===========
@@ -39,10 +56,7 @@
    %0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
    
    Do not contact contributors directly about support or help with technical issues.
-   
-   Credits
-   =======
-   
+ 
    Authors
    ~~~~~~~
    
