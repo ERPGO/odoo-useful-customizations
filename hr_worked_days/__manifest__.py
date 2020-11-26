@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Dosttech Payslip Customizations",
+    'name': "Working day calculation",
 
     'summary': """
         Calculate working days excluding leaves in payslip""",
